@@ -1,0 +1,548 @@
+﻿@import url('portfoliosection.css');
+section#about {
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    padding: 0px;
+    margin: 0;  
+    
+}
+
+.aboutbody {
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    height: 90%;
+    margin-top: 20px;
+}
+
+.aboutmetextbox {
+    width: 99.5%;
+    height: 30%;
+    display: flex;
+    flex-flow: row;
+    
+}
+
+.imagebox {
+    height: 100%;
+    width: 40%;
+    padding: 10px;
+}
+
+.imagebox img {
+    box-shadow: 0 0 2px rgba(0,0,0,.1);
+    border-radius:3px;
+}
+
+.frame {
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border: 10px solid #efefef;
+    background-color: #C4A484;
+    position: relative;
+    transition: .3s ease;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.3), 1px 1px 2px rgba(0,0,0,.2), 40px 35px 70px -10px rgba(0,0,0,.5), -20px -20px 100px -10px rgba(255,255,255,.8);
+}
+
+.red {
+    border: 10px solid #654321;
+    box-shadow: inset 1px 1px 3px rgba(0,0,0,.3), 1px 1px 2px rgba(0,0,0,.2), 40px 35px 70px -10px rgba(0,0,0,.5), -20px -20px 100px -10px rgba(#A52F2F,.3);
+}
+
+.frame img{
+    height:100%;
+    width:100%;
+}
+
+.imagetextbox {
+    height: 80%;
+    width: 60%;
+    display:flex;
+    margin-left:20px;
+    align-self:center;
+    flex-flow:row;
+    padding:10px;
+}
+
+.imgtxtboxone {
+    height: 100%;
+    width: 50%;
+    justify-content:space-evenly;
+    display:flex;
+    flex-flow:column;
+    text-align:justify;
+
+}
+
+.imgtxtboxone h1{
+    font-size:15px;
+    font-weight:700;
+}
+
+.imgtxtboxone span{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.imgtxtboxtwo {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.imgtxtboxtwo h1 {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.imgtxtboxtwo span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*EXP BODY*/
+.expbody {
+    border-top: 1px solid #171717;
+    height: 30%;
+    width: 99.5%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row;
+}
+
+.expbodyone {
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+.expbodyone h1{
+    align-self:flex-start;
+    font-weight:400;
+    margin-bottom:15px;
+}
+
+
+.expboxone {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow:column;
+}
+
+.firstexp{
+    height:50%;
+    width:100%;
+    display:flex;
+    flex-flow:column;
+    align-items:flex-start;
+}
+
+.firstexp i{
+    font-size: 20px;
+}
+
+.firstexp i span{
+    font-size: 12px;
+    font-weight:500;
+}
+
+    .firstexp h2 {
+        font-weight: 500;
+        font-size:18px;
+        margin-bottom:10px;
+    }
+
+    .firstexp h2 span {
+        font-weight: 800;
+       
+    }
+
+    .firstexp p{
+        text-align:justify;
+        font-size: 15px;
+        width:85%;
+    }
+
+.secondexp{
+    height:50%;
+    width:100%;
+    display:flex;
+    flex-flow:column;
+    align-items:flex-start;
+}
+
+    .secondexp i {
+        font-size: 20px;
+    }
+
+        .secondexp i span {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+    .secondexp h2 {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+        .secondexp h2 span {
+            font-weight: 800;
+        }
+
+    .secondexp p {
+        text-align: justify;
+        font-size: 15px;
+        width: 85%;
+    }
+
+.expbodytwo {
+    height: 100%;
+    width: 50%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+    .expbodytwo h1 {
+        align-self: flex-start;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+.expboxtwo {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+
+.firsteduc {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+    .firsteduc i {
+        font-size: 20px;
+    }
+
+        .firsteduc i span {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+    .firsteduc h2 {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+        .firsteduc h2 span {
+            font-weight: 800;
+        }
+
+    .firsteduc p {
+        text-align: justify;
+        font-size: 15px;
+        width: 85%;
+    }
+
+
+.secondeduc {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+    .secondeduc i {
+        font-size: 20px;
+    }
+
+        .secondeduc i span {
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+    .secondeduc h2 {
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+        .secondeduc h2 span {
+            font-weight: 800;
+        }
+
+    .secondeduc p {
+        text-align: justify;
+        font-size: 15px;
+        width: 85%;
+    }
+
+/*EXP BODY*/
+
+
+/*SKILLS BODY*/
+
+.skillsbody{
+    height:35%;
+    width:99.5%;
+    display:flex;
+    flex-flow:column;
+
+}
+
+    .skillsbody a {
+        align-self: flex-start;
+        font-weight: 400;
+        margin-top: 15px;
+        text-decoration: none;
+        color: #171717;
+        font-size: 28px;
+    }
+
+    .skillsbody i {
+        font-size: 20px;
+    }
+
+        .skillsbody i:hover {
+            color: #654321;
+        }
+    .skillsbody a:hover {
+        font-weight: 500;
+        color: #654321;
+    }
+.button1{
+    position:inherit;
+    display:none;
+}
+
+
+.skillsdisplay {
+    display: flex;
+    flex-flow: row;
+    height: 100%;
+    width: 100%;
+}
+
+.modal {
+    position: inherit;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+    
+
+.skillboxone {
+    height: 80%;
+    width: 50%;
+    border-right: 1px solid black;
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    
+}
+
+.skillboxone h3{
+    font-weight:400;
+}
+
+.bar {
+    background: #171717;
+    display: block;
+    align-self: center;
+    height: 20px;
+    width: 80%;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: 10px;
+}
+
+    .bar:hover {
+        box-shadow: 0 14px 28px #C4A484, 0 10px 10px #654321;
+    }
+
+    .bar span {
+        height: 20px;
+        float: left;
+        background: linear-gradient(135deg, #C4A484 0%, #654321 100%);
+    }
+
+.html {
+    width: 90%;
+    animation: html 3s;
+}
+
+.css {
+    width: 80%;
+    animation: css 3s;
+}
+
+.php {
+    width: 60%;
+    animation: php 3s;
+}
+
+.jscript {
+    width: 70%;
+    animation: jscript 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 90%;
+    }
+}
+
+@keyframes css {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes php {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes jscript {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.skillboxtwo {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+    .skillboxtwo h3 {
+        font-weight: 400;
+    }
+
+.bartwo {
+    background: #171717;
+    display: block;
+    align-self: center;
+    height: 20px;
+    width: 80%;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-bottom: 10px;
+}
+
+    .bartwo:hover {
+        box-shadow: 0 14px 28px #C4A484, 0 10px 10px #654321;
+    }
+
+    .bartwo span {
+        height: 20px;
+        float: left;
+        background: linear-gradient(135deg, #C4A484 0%, #654321 100%);
+    }
+
+.msoffice {
+    width: 70%;
+    animation: msoffice 3s;
+}
+
+.photoshop {
+    width: 80%;
+    animation: photoshop 3s;
+}
+
+.video {
+    width: 50%;
+    animation: video 3s;
+}
+
+.photos {
+    width: 50%;
+    animation: photos 3s;
+}
+
+@keyframes msoffice {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+@keyframes photoshop {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes video {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes photos {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+/*SKILLS BODY*/
+
+
+

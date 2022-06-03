@@ -1,0 +1,436 @@
+﻿@import url('contactsection.css');
+section#portfolio {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.portbody {
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+    height: 85%;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.myportxt {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+ .myportxt h1 {
+        font-size:60px;
+        font-weight:900;
+    }
+
+.myportxttwo {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+}
+
+.myportxttwo p {
+    color:#171717;
+    font-size:15px;
+
+}
+
+.portbodytwo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.portnav {
+    width: 60%;
+    height: 6%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 10px;
+    background-color: #C4A484;
+}
+
+    .portnav a {
+        color: #654321;
+        font-size: 15px;
+        font-weight: 900;
+        text-decoration:none;
+    }
+
+    .active, .portnav a:hover {
+    color: #171717;
+    }
+.portscreen{
+ 
+    height:90%;
+    width:95%;
+    display:flex;
+}
+
+
+.portdisplay {
+
+    height: 100%;
+    width: 100%;
+}
+
+/*hide*/
+.portboxone {
+    height: 100%;
+    width: 100%;
+}
+/*hide*/
+
+.portapi {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    width: 100%;
+    height: 100%;
+}
+
+.portapi::-webkit-scrollbar {
+    display: none;
+}
+
+#api{
+    width:100%;
+    height:100%;
+}
+
+/*WEB ANIMATION*/
+
+.apione {
+    width: 100%;
+    height: 100%;
+    padding:10px;
+    
+}
+
+
+.webanim {
+
+    width: 80%;
+    height: 80%;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.webanimone {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    
+}
+
+.controls {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 96%;
+}
+
+    .controls div {
+        border: 0 solid #333;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+
+    .controls label {
+        display: block;
+        margin-left: 6rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 1rem;
+        color: #654321;
+    }
+
+    .controls input[type="range"] {
+        width: 16rem;
+        display: inline-block;
+        margin: 0.5rem;
+        float: right;
+    }
+
+    .controls button {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        background: transparent;
+        border: none;
+        color: #654321;
+        line-height: 1;
+        margin: 0.5rem;
+        text-align: center;
+        padding: 0.2rem 0.5rem 0.2rem 0.3rem;
+        border-radius: 0.3rem;
+        transition: background 0.15s linear, color 0.15s linear;
+        border: 1px solid #333;
+        float: left;
+    }
+
+        .controls button.active {
+            background: #333;
+            color: #fafafb;
+        }
+
+.webanimtwo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 10px;
+    border-left: 1px solid #654321;
+}
+
+.blob {
+    display: flex;
+    flex-flow:column;
+    justify-content:space-evenly;
+    align-items:center;
+    width:100%;
+    height: 96%;
+ 
+}
+
+.toppos {
+
+    width:100%;
+    height:33.3%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.midpos {
+   
+    width: 60%;
+    height: 33.3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.bottompos {
+   
+    width: 40%;
+    height: 33.3%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.anim {
+    border-radius: 50%;
+    border: 0.4rem solid #fafafb;
+    width: 5rem;
+    height: 5rem; 
+}
+
+    .anim.head {
+        border-color: #299;
+    }
+
+    .anim.body {
+        border-color: #c92;
+        width: 7rem;
+        height: 7rem;
+       
+    }
+
+    .anim.hand {
+        border-color: #922;
+      
+    }
+
+        .anim.hand.left {
+           
+        }
+
+        .anim.hand.right {
+            
+        }
+
+    .anim.foot {
+        border-color: #c65;
+       
+    }
+
+        .anim.foot.right {
+           
+        }
+/*WEB ANIMATION*/
+
+
+/*WEATHER API*/
+
+.portboxtwo {
+    height: 100%;
+    width: 100%;
+}
+
+.portapitwo {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.weatherapi {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+}
+
+.input {
+    text-align: center;
+    height:10%;
+    width:100%;
+    display:flex;
+    justify-content:center;
+
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background: #654321;
+    border: none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    height: 100%;
+    width:15%;
+    color:whitesmoke;
+}
+
+.input input[type="text"] {
+    width: 85%;
+    height: 73%;
+    padding: 5px;
+    border: 1px solid #654321;
+    background:none;
+    border-radius: 1px;
+    font-family: "Nunito",sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.weathercontainer {
+    height: 100%;
+    width: 100%;
+    margin-top:10px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card {
+    width: 100%;
+    background:#E1D9D1 ;
+    height: 100%;
+    border-radius: 2px;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
+
+.name {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 60%;
+    height: 45%;
+}
+
+    .card h1 {
+        text-align: center;
+        font-size:60px;
+    }
+
+    .card p {
+        text-align: center;
+        width: 60%;
+        height: 10%;
+        font-size: 20px;
+    }
+/*WEATHER API*/
+
+
+/*PICTURE IN PICTURE API*/
+
+.portboxthree {
+    height: 100%;
+    width: 100%;
+}
+
+.portapithree {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apithreebody {
+    width: 80%;
+    height: 80%;
+    display: flex;
+}
+
+.threebodyone {
+    width: 50%;
+    height: 100%;
+
+    display:flex;
+    flex-flow:column;
+    padding:10px;
+}
+
+.threebodytwo {
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+}
+
+.pipdesign {
+    height: 30px;
+    width: 250px;
+    background-color: #C4A484;
+    color: #654321;
+    align-self:center;
+    font-size:15px;
+    border:none;
+    margin-top:20px;
+}
+
+    .pipdesign:hover {
+        background-color: #654321;
+        color: whitesmoke;
+    }
+
+/*PICTURE IN PICTURE API*/

@@ -1,0 +1,100 @@
+﻿section#contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.contactbody {
+    display: flex;
+    flex-flow: column;
+    width: 95%;
+    height: 85%;
+    margin-top: 20px;
+    padding: 10px;
+    align-items:center;
+    justify-content:center;
+}
+
+.emailbody {
+    height: 90%;
+    width: 70%;
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+}
+
+.emailbody h1{
+    font-size: 40px;
+    font-weight:800;
+}
+
+    .emailbody p  {
+        font-size: 15px;
+    }
+
+    .emailbody p1{
+        text-transform:uppercase;
+        font-size:12px;
+        height:5%;
+    }
+
+.emaildisplay {
+    height: 70%;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-flow:column;
+    align-items: center;
+    padding: 10px;
+}
+
+form {
+    height: 80%;
+    width: 70%;
+}
+
+
+.emailboxone {
+    display: flex;
+    flex-flow: row;
+    justify-content:space-evenly;
+    height: 10%;
+}
+
+    .emailboxone input {
+        width: 40%;
+        background-color: #E1D9D1;
+    }
+
+.emailboxtwo {
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    height: 80%;
+    width: 100%;
+}
+
+    .emailboxtwo textarea {
+        resize: none;
+        height: 70%;
+        width: 60%;
+        align-self: center;
+        margin-bottom: 10px;
+        background-color: #E1D9D1;
+    }
+
+    .emailboxtwo button {
+        height: 40px;
+        width: 90px;
+        align-self: center;
+        background-color: #E1D9D1;
+    }
+
+    .emailboxtwo button:hover{
+        background-color:#654321;
+        color:whitesmoke;
+    }
+
+   
